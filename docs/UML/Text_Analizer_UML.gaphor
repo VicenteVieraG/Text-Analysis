@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="https://gaphor.org/model" xmlns:Core="https://gaphor.org/modelinglanguage/Core" xmlns:UML="https://gaphor.org/modelinglanguage/UML" version="4" gaphor-version="3.3.2">
+<model>
+<Core:StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+</val>
+</styleSheet>
+</Core:StyleSheet>
+<UML:ClassDiagram id="f9718116-5eee-11f1-8693-211a03398e78">
+<name>
+<val>Text Analyser</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="21cdb9d9-5eef-11f1-911b-211a03398e78"/>
+<ref refid="220e0e86-5ef0-11f1-b1cf-211a03398e78"/>
+<ref refid="17010761-5ef1-11f1-99fe-211a03398e78"/>
+<ref refid="5632dfeb-5ef1-11f1-8a20-211a03398e78"/>
+<ref refid="9789df2e-5ef1-11f1-9348-211a03398e78"/>
+</reflist>
+</ownedPresentation>
+</UML:ClassDiagram>
+<UML:Class id="21cd5637-5eef-11f1-9834-211a03398e78">
+<name>
+<val>TextAnalyser</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="21cdb9d9-5eef-11f1-911b-211a03398e78"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="21cdb9d9-5eef-11f1-911b-211a03398e78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 338.45759723705066, -191.58984375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>109.0</val>
+</width>
+<height>
+<val>57.0</val>
+</height>
+<diagram>
+<ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
+</diagram>
+<subject>
+<ref refid="21cd5637-5eef-11f1-9834-211a03398e78"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="220dc742-5ef0-11f1-bdbd-211a03398e78">
+<name>
+<val>ThreadPool</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="220e0e86-5ef0-11f1-b1cf-211a03398e78"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="220e0e86-5ef0-11f1-b1cf-211a03398e78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 180.7435973570833, -191.58984375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>57.0</val>
+</height>
+<diagram>
+<ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
+</diagram>
+<subject>
+<ref refid="220dc742-5ef0-11f1-bdbd-211a03398e78"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="1700a79b-5ef1-11f1-bade-211a03398e78">
+<name>
+<val>classname::FileLoader</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="17010761-5ef1-11f1-99fe-211a03398e78"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="17010761-5ef1-11f1-99fe-211a03398e78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 300.95759723705066, -117.78587898695004)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>184.0</val>
+</width>
+<height>
+<val>57.0</val>
+</height>
+<diagram>
+<ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
+</diagram>
+<subject>
+<ref refid="1700a79b-5ef1-11f1-bade-211a03398e78"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="56329fe7-5ef1-11f1-adb7-211a03398e78">
+<name>
+<val>classname::Analisys</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="5632dfeb-5ef1-11f1-8a20-211a03398e78"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="5632dfeb-5ef1-11f1-8a20-211a03398e78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 309.9575972370506, -46.78597379863785)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>166.0</val>
+</width>
+<height>
+<val>57.0</val>
+</height>
+<diagram>
+<ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
+</diagram>
+<subject>
+<ref refid="56329fe7-5ef1-11f1-adb7-211a03398e78"/>
+</subject>
+</UML:ClassItem>
+<UML:Class id="9789a092-5ef1-11f1-b781-211a03398e78">
+<name>
+<val>Report</val>
+</name>
+<presentation>
+<reflist>
+<ref refid="9789df2e-5ef1-11f1-9348-211a03398e78"/>
+</reflist>
+</presentation>
+</UML:Class>
+<UML:ClassItem id="9789df2e-5ef1-11f1-9348-211a03398e78">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 499.4214815688918, -191.58984375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>57.0</val>
+</height>
+<diagram>
+<ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
+</diagram>
+<subject>
+<ref refid="9789a092-5ef1-11f1-b781-211a03398e78"/>
+</subject>
+</UML:ClassItem>
+</model>
+</gaphor>

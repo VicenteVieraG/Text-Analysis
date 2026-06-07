@@ -1,9 +1,14 @@
 #include <iostream>
+#include <string>
 #include <config.hpp>
+#include <filereader.hpp>
 
-int main(int argc, char** argv){
+int main(){
     std::cout<<project_name<<std::endl;
     std::cout<<project_version<<std::endl;
+
+    const std::string text = FileReader::readFile("/home/vicente/Source/Text-Analysis/data/war_and_peace.txt");
+    std::cout<<text.substr(0, 14);
 
     return 0;
 }
