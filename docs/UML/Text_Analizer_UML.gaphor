@@ -31,6 +31,13 @@ controlflow {
 <name>
 <val>TextAnalyser</val>
 </name>
+<ownedOperation>
+<reflist>
+<ref refid="08b34d3b-6218-11f1-b64a-67edbc78f5b4"/>
+<ref refid="15798c35-6218-11f1-8d3b-67edbc78f5b4"/>
+<ref refid="256af9a6-6218-11f1-925c-67edbc78f5b4"/>
+</reflist>
+</ownedOperation>
 <presentation>
 <reflist>
 <ref refid="21cdb9d9-5eef-11f1-911b-211a03398e78"/>
@@ -39,16 +46,16 @@ controlflow {
 </UML:Class>
 <UML:ClassItem id="21cdb9d9-5eef-11f1-911b-211a03398e78">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 338.45759723705066, -191.58984375)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 308.51802827652796, -194.17768410404625)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>109.0</val>
+<val>163.0</val>
 </width>
 <height>
-<val>57.0</val>
+<val>108.0</val>
 </height>
 <diagram>
 <ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
@@ -91,6 +98,16 @@ controlflow {
 <name>
 <val>classname::FileLoader</val>
 </name>
+<ownedAttribute>
+<reflist>
+<ref refid="f16c1425-6216-11f1-b4d3-67edbc78f5b4"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="1eadb66b-6217-11f1-b2f0-67edbc78f5b4"/>
+</reflist>
+</ownedOperation>
 <presentation>
 <reflist>
 <ref refid="17010761-5ef1-11f1-99fe-211a03398e78"/>
@@ -99,20 +116,23 @@ controlflow {
 </UML:Class>
 <UML:ClassItem id="17010761-5ef1-11f1-99fe-211a03398e78">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 300.95759723705066, -117.78587898695004)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 199.04220082060834, -325.887536035782)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
 </top-left>
 <width>
-<val>184.0</val>
+<val>399.0</val>
 </width>
 <height>
-<val>57.0</val>
+<val>74.0</val>
 </height>
 <diagram>
 <ref refid="f9718116-5eee-11f1-8693-211a03398e78"/>
 </diagram>
+<show_attributes>
+<val>0</val>
+</show_attributes>
 <subject>
 <ref refid="1700a79b-5ef1-11f1-bade-211a03398e78"/>
 </subject>
@@ -129,7 +149,7 @@ controlflow {
 </UML:Class>
 <UML:ClassItem id="5632dfeb-5ef1-11f1-8a20-211a03398e78">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 309.9575972370506, -46.78597379863785)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 315.5422008206083, -4.3722526125303665)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -177,5 +197,45 @@ controlflow {
 <ref refid="9789a092-5ef1-11f1-b781-211a03398e78"/>
 </subject>
 </UML:ClassItem>
+<UML:Property id="f16c1425-6216-11f1-b4d3-67edbc78f5b4">
+<name>
+<val></val>
+</name>
+<structuredClassifier>
+<ref refid="1700a79b-5ef1-11f1-bade-211a03398e78"/>
+</structuredClassifier>
+</UML:Property>
+<UML:Operation id="1eadb66b-6217-11f1-b2f0-67edbc78f5b4">
+<class_>
+<ref refid="1700a79b-5ef1-11f1-bade-211a03398e78"/>
+</class_>
+<name>
+<val>+ std::string readFile(const std::filesystem::path&amp; path)</val>
+</name>
+</UML:Operation>
+<UML:Operation id="08b34d3b-6218-11f1-b64a-67edbc78f5b4">
+<class_>
+<ref refid="21cd5637-5eef-11f1-9834-211a03398e78"/>
+</class_>
+<name>
+<val>wordFrequency</val>
+</name>
+</UML:Operation>
+<UML:Operation id="15798c35-6218-11f1-8d3b-67edbc78f5b4">
+<class_>
+<ref refid="21cd5637-5eef-11f1-9834-211a03398e78"/>
+</class_>
+<name>
+<val>readability</val>
+</name>
+</UML:Operation>
+<UML:Operation id="256af9a6-6218-11f1-925c-67edbc78f5b4">
+<class_>
+<ref refid="21cd5637-5eef-11f1-9834-211a03398e78"/>
+</class_>
+<name>
+<val>sentimentAnalysis</val>
+</name>
+</UML:Operation>
 </model>
 </gaphor>
