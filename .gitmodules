@@ -7,3 +7,6 @@
 [submodule "external/inja"]
 	path = external/inja
 	url = https://github.com/pantor/inja.git
+[submodule "external/hwinfo"]
+	path = external/hwinfo
+	url = https://github.com/lfreist/hwinfo.git
