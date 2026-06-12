@@ -7,4 +7,5 @@ docs/html
 .vscode
 
 # Ignore AI configuration files
+.agents
 .codex
